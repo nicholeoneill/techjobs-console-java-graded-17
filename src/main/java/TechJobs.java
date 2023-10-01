@@ -122,7 +122,7 @@ public class TechJobs {
     private static void printJobs(ArrayList<HashMap<String, String>> someJobs) {
         String stars = "*****";
         String colon = ": ";
-//        System.out.println(someJobs);
+
         if (someJobs.size() == 0) {
             System.out.println("No Results\n" +
                     "View jobs by (type 'x' to quit):");
